@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>L&L</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">L&L</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link active-link">
+                <i class="ri-home-line"></i>
+                <span>Home</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="About_Us.html" class="nav__link">
+                <i class="ri-price-tag-3-line"></i>
+                <span>About Us</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="index.html#collection" class="nav__link">
+                <i class="ri-compass-line"></i>
+                <span>Collection</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="events.html" class="nav__link">
+                <i class="ri-t-shirt-line"></i>
+                <span>Events</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!--Theme change button-->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== Contact Us ====================-->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__data">
+            <h1 class="contact__title">Contact Us</h1>
+
+            <p class="contact__description">
+              Indulge in our exquisite range of sustainable fashion.<br />Shop
+              the latest arrivals and best-sellers, and experience the elegance
+              of Lux & Leisure delivered right to your door.
+            </p>
+          </div>
+          <form action="/action_page.php">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">First Name</label>
+              </div>
+              <div class="col-75">
+                <input
+                  type="text"
+                  id="fname"
+                  name="firstname"
+                  placeholder="Your name.."
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">Last Name</label>
+              </div>
+              <div class="col-75">
+                <input
+                  type="text"
+                  id="lname"
+                  name="lastname"
+                  placeholder="Your last name.."
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="country">Country</label>
+              </div>
+              <div class="col-75">
+                <select id="country" name="country">
+                  <option value="ngeria">Nigeria</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Subject</label>
+              </div>
+              <div class="col-75">
+                <textarea
+                  id="subject"
+                  name="subject"
+                  placeholder="Write something.."
+                  style="height: 200px"
+                ></textarea>
+              </div>
+            </div>
+            <br />
+            <div class="row">
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
+          <div style="width: 100%">
+            <iframe
+              width="100%"
+              height="600"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Green%20Street%20Ikoyi,%20Lagos,%20Nigeria+(Lux%20and%20Leisure)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              ><a href="https://www.gps.ie/">gps systems</a></iframe
+            >
+          </div>
+          <div class="contact__data">
+            <p class="contact__description">
+              Indulge in our exquisite range of sustainable fashion.<br />Shop
+              the latest arrivals and best-sellers, and experience the elegance
+              of Lux & Leisure delivered right to your door.
+            </p>
+            <h2>Lagos Office</h2>
+
+            <p class="contact__description">
+              Lux & Leisure <br />
+              Green Street Ikoyi, Lagos, Nigeria <br />
+              Phone: (+234) 123-4567 <br />
+              Email:support@luxleisure.com
+            </p>
+            <h2>Abuja Office</h2>
+
+            <p class="contact__description">
+              Lux & Leisure <br />
+              Green Street Ikoyi, Lagos, Nigeria <br />
+              Phone: (+234) 123-4567 <br />
+              Email:support@luxleisure.com
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--==================NEWSLETTER==================-->
+    </main>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div>
+          <a href="#" class="footer__logo"> L&L </a>
+          <p class="footer__description">
+            Welcome to the world of L&L <br />
+            where eco-friendly fashion meets <br />
+            elegance.
+          </p>
+        </div>
+        <div class="footer__content">
+          <div>
+            <h3 class="footer__title">Company</h3>
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link"> Shop </a>
+              </li>
+              <li>
+                <a href="Privacy_policy.html" class="footer__link">
+                  Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a href="Contact_Us.html" class="footer__link">
+                  Contact info
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer__title">Blog</h3>
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">Events </a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Popular news </a>
+              </li>
+              <li>
+                <a href="#" class="footer__link"> Recent news</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer__title">Office</h3>
+            <p class="footer__information">
+              Monday - Saturday <br />
+              9AM - 10PM
+            </p>
+          </div>
+          <div>
+            <h3 class="footer__title">Contact us</h3>
+
+            <ul class="footer__social">
+              <!-- Insert your name from your facebook page -->
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-facebook-fill"></i>
+              </a>
+              <!-- Insert your name from your instagram page -->
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+              <!-- Insert a real number plus country code -->
+              <a
+                href="https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-whatsapp-line"></i>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__info container">
+        <span> &#169; Miva CS JAN Cohort Group G. All rigths reserved </span>
+        <a href="" class="footer__privacy">Terms & Conditions </a>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
